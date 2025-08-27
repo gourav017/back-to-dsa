@@ -19,3 +19,5 @@ object- it is represting in a curle bracketes and stored in key value pairs.
   }
 
   ----->     here a is a key and its value is 4 
+
+  # let vs const 
