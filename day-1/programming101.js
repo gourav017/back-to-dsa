@@ -18,8 +18,8 @@ console.log(division)
 // -----------------------------------------------------------------------------------//
 const x = 20;
 // a = 90  //not works - a is not reassing becox of the const - constant
-////Re-declaration: Not allowed in same scope
-//Re - assignment: Allowed
+////Re-declaration: Not allowed 
+//Re - assignment: not Allowed
 let y = 90;  
 y = 10; 
 //Re-declaration: Not allowed in same scope
