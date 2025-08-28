@@ -90,3 +90,4 @@ function checkEvenOrOdd(num) {
 }
 
 checkEvenOrOdd(-2)
+
