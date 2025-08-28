@@ -67,10 +67,11 @@ function searchElement(n) {
     return -1
 
 }
-//while loop se
+
 let thatindex = searchElement(7)  //return 3
 console.log(thatindex)
 
+//while loop se
 let array = [1, 2, 3, 4, 7, 8, 8]
 
 function searchElement(n) {
