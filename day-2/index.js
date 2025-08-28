@@ -39,7 +39,8 @@ console.log(values)
 
 // <----------------------------------------------------------------------------------------------------->
 
-// write a function which is accept a age as a argument and check that person is eligible for vote or not
+// write a function which is accept a age as a argument and 
+// check that person is eligible for vote or not
 
 typeof "John"         // Returns string
 typeof ("John" + "Doe") // Returns string
@@ -68,3 +69,24 @@ function eligibileToVote(age) {
 }
 
 eligibileToVote(9)
+
+// <---------------------------------------------------------------------------------------->
+
+// write a function that accept a number check that number
+// is even or odd
+
+// even number those are fully divided by 2 and give reminder 0
+
+// odd number are not full divided by 2
+
+function checkEvenOrOdd(num) {
+    if (num % 2 === 0) {
+        console.log(`${num} is Even number`)
+
+    }
+    else {
+        console.log(`${num} is a Odd number`)
+    }
+}
+
+checkEvenOrOdd(-2)
