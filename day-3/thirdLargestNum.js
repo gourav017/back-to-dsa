@@ -3,8 +3,8 @@
 function thirdLargestNum(arr) {
 
     if (arr.length < 3) {
-    return "array should have atleast 3 numbers"
-}
+        return "array should have atleast 3 numbers"
+    }
 
     let firstLargest = -Infinity;
     let secoundLargest = -Infinity;
@@ -17,11 +17,11 @@ function thirdLargestNum(arr) {
             thirdLargest = secoundLargest;
             firstLargest = arr[i]
         }
-        else if (arr[i] > secoundLargest) {
+        else if (arr[i] > secoundLargest && firstLargest!==arr[i]) {
             thirdLargest = secoundLargest;
             secoundLargest = arr[i]
         }
-        else if (arr[i] > thirdLargest) {
+        else if (arr[i] > thirdLargest && secoundLargest!==arr[i]) {
             thirdLargest = arr[i]
         }
     }
@@ -29,6 +29,6 @@ function thirdLargestNum(arr) {
 }
 
 
-let arr = [4, 9, 0, 2, 8, 7, 1]
+let arr = [4, 9,9,9, 0, 2, 8,8,8,7,7, 7, 1]
 
 console.log(thirdLargestNum(arr))
